@@ -21,14 +21,12 @@ public class MainFrame extends JFrame {
     private static final int HEIGHT = 320;
     public double SUM = 0.0;
 
-    // Текстовые поля для ычитывания значений переменных,
-// как компоненты, совместно используемые в различных методах
+    // Текстовые поля для ычитывания значений переменных, как компоненты, совместно используемые в различных методах
     private JTextField textFieldX;
     private JTextField textFieldY;
     private JTextField textFieldZ;
     private JTextField textFieldSum;
-    // Текстовое поле для отображения результата,
-// как компонент, совместно используемый в различных методах
+    // Текстовое поле для отображения результата, как компонент, совместно используемый в различных методах
     private JTextField textFieldResult;
     // Группа радио-кнопок для обеспечения уникальности выделения в группе
     private ButtonGroup radioButtons = new ButtonGroup();
